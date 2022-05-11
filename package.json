@@ -1,9 +1,9 @@
 {
   "name": "srvz",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A stupidly simple 0-configuration http server serving the directory of your choice",
   "main": "index.js",
-	"type": "module",
+  "type": "module",
   "scripts": {
     "test": "echo \"Open the browser!\" && node index.js"
   },
