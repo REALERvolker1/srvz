@@ -1,14 +1,21 @@
 # srvz
-A stupidly simple 0-configuration node.js http server
+A simple http server serving the directory of your choice:
+
+https://www.npmjs.com/package/srvz
 # Usage
-
-`C:\path\to\static\files> npm i srvz`
-
-```js
-import srvz from 'srvz'
-srvz()
+### Install:
 ```
+$ npm i -g srvz
+```
+1. Open the directory you wish to host in your terminal, eg. a directory including an `index.html`
+2. run the comand `srvz` in your terminal
+3. Go to `http://localhost:8080` in your browser
+4. Profit
 
-just do whatever with the src idgaf
+Alternatively, you can use `import srvz from "srvz"`, just leave it how it is because the function to start a server starts with the file's import
 
-Planning on making this npx/CLI compatible but there are like `0` tutorials for doing so.
+Note that for directories without an `index.html` file, you must specify the filename you wish to open.
+
+Do not use this in production unless you like getting hacked. Report bugs on the issues tab
+
+obey the license ofc

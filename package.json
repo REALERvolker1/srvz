@@ -1,11 +1,14 @@
 {
   "name": "srvz",
-  "version": "1.0.1",
-  "description": "A stupidly simple 0-configuration http server serving the directory of your choice",
+  "version": "1.1.0",
+  "description": "A simple http server serving the directory of your choice",
+	"bin": {
+    "srvz": "index.js"
+  },
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Open the browser!\" && node index.js"
+    "test": "node test.js"
   },
   "repository": {
     "type": "git",
@@ -15,10 +18,12 @@
     "http",
     "http-server",
     "https",
-    "https-server"
+    "https-server",
+		"node-http-server",
+		"volker1"
   ],
   "author": "vlkr",
-  "license": "Apache-2.0",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/REALERvolker1/srvz/issues"
   },
