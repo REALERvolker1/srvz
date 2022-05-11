@@ -1,0 +1,26 @@
+{
+  "name": "srvz",
+  "version": "1.0.0",
+  "description": "A stupidly simple 0-configuration http server serving the directory of your choice",
+  "main": "index.js",
+	"type": "module",
+  "scripts": {
+    "test": "echo \"Open the browser!\" && node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/REALERvolker1/srvz.git"
+  },
+  "keywords": [
+    "http",
+    "http-server",
+    "https",
+    "https-server"
+  ],
+  "author": "vlkr",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/REALERvolker1/srvz/issues"
+  },
+  "homepage": "https://github.com/REALERvolker1/srvz#readme"
+}
